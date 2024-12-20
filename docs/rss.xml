@@ -1,5 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Wed, 18 Dec 2024 14:37:35 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>VPS搭建节点常用脚本</title><link>https://jackaihmi.github.io/post/VPS-da-jian-jie-dian-chang-yong-jiao-ben.html</link><description># 有root&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Fri, 20 Dec 2024 14:41:39 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>Telegram使用方案</title><link>https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</link><description># 设置中文&#13;
+Telegram官方客户端并没有提供简体中文，可以进行如下操作：&#13;
+1、**直接打开链接**： [简体中文语音包](https://t.me/setlanguage/zhcncc) 即可使用简体中文&#13;
+2、下载第三方**自带简体中文**的Telegram客户端，具体软件自行搜索&#13;
+# **设置**&#13;
+## 下载设置&#13;
+若担心在使用Telegram过程中因自动下载过多照片及视频导致内存占用过大，可以进行以下设置：&#13;
+**1、进入设置打开数据**&#13;
+![photo_2024-12-20_22-19-00](https://github.com/user-attachments/assets/c5bf53d0-cfb9-4e6b-b765-6625fde78f22)&#13;
+&#13;
+**2、将里面所有自动下载的功能关闭**&#13;
+![photo_2024-12-20_22-18-56](https://github.com/user-attachments/assets/ac03337f-b334-4331-935e-c34c1c2dff66)&#13;
+&#13;
+&gt;电脑端设置方法类似&#13;
+## 隐私设置&#13;
+做好隐私保护是使用Telegram的关键一步，建议将隐私设置如下图设置&#13;
+&gt;最后两项需要订阅Telegram会员才能更改&#13;
+![屏幕截图 2024-12-20 222411](https://github.com/user-attachments/assets/a51c6519-89a6-4c1d-bea7-411ce7bfde0f)&#13;
+# 聊天技巧&#13;
+Telegram 支持 **Markdown** 语法，尤其是在消息格式化方面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</guid><pubDate>Fri, 20 Dec 2024 14:41:07 +0000</pubDate></item><item><title>VPS搭建节点常用脚本</title><link>https://jackaihmi.github.io/post/VPS-da-jian-jie-dian-chang-yong-jiao-ben.html</link><description># 有root&#13;
 ## X-UI&#13;
 &#13;
 `bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)`&#13;
