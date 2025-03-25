@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Fri, 20 Dec 2024 14:45:44 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>Telegram使用方案</title><link>https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</link><description># 设置中文&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Tue, 25 Mar 2025 12:21:42 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>Telegram使用方案</title><link>https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</link><description># 设置中文&#13;
 Telegram官方客户端并没有提供简体中文，可以进行如下操作：&#13;
 1、**直接打开链接**： [简体中文语音包](https://t.me/setlanguage/zhcncc) 即可使用简体中文&#13;
 2、下载第三方**自带简体中文**的Telegram客户端，具体软件自行搜索&#13;
@@ -18,67 +18,27 @@ Telegram官方客户端并没有提供简体中文，可以进行如下操作：
 &gt;最后两项需要订阅Telegram会员才能更改&#13;
 ![屏幕截图 2024-12-20 222411](https://github.com/user-attachments/assets/a51c6519-89a6-4c1d-bea7-411ce7bfde0f)&#13;
 # 聊天技巧&#13;
-Telegram 支持 **Markdown** 语法，尤其是在消息格式化方面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</guid><pubDate>Fri, 20 Dec 2024 14:41:07 +0000</pubDate></item><item><title>VPS搭建节点常用脚本</title><link>https://jackaihmi.github.io/post/VPS-da-jian-jie-dian-chang-yong-jiao-ben.html</link><description># 有root&#13;
-## X-UI&#13;
-&#13;
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)`&#13;
-&#13;
-## 一键四协议(vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5)&#13;
-**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**&#13;
-&#13;
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh)`&#13;
-&#13;
-## ssh综合工具箱一键脚本&#13;
-**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**&#13;
-&#13;
-`curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; ./ssh_tool.sh`&#13;
-&#13;
-# 无root (如serv00)&#13;
-**支持的系统：FreeBSD**&#13;
-## X-UI for FreeBSD&#13;
-**在安装前，请先准备好用户名，密码和两个端口（面板访问端口和流量监控端口）**&#13;
-`wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/parentalclash/x-ui-freebsd/main/x-ui.sh &amp;&amp; chmod +x x-ui.sh &amp;&amp; ./x-ui.sh install`&#13;
-&#13;
-## serv00-play&#13;
-&#13;
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/frankiejun/serv00-play/main/start.sh)`&#13;
-**若使用过程中提示输入密码，请输入** `fkjyyds666`&#13;
-## Socks5&#13;
-&#13;
-`bash &lt;(curl -s https://raw.githubusercontent.com/cmliu/socks5-for-serv00/main/install-socks5.sh)`&#13;
-&#13;
-## Socks5 + Hysteria2&#13;
-&#13;
-`bash &lt;(curl -s https://raw.githubusercontent.com/gshtwy/socks5-for-serv00/main/install-socks5-hysteria.sh)`&#13;
-&#13;
-## 一键四协议(vmess-ws|vmess-ws-tls(argo)|hy2|tuic5)&#13;
-&#13;
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.sh)`&#13;
-&#13;
-## 一键三协议(vless-reality|hy2|tuic5)&#13;
-&#13;
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)`&#13;
-&#13;
-## 无交互一键三协议(vless-reality|vmess-splithttp|vmess-splithttp-tls(argo))&#13;
-&#13;
-`VLESS_PORT=TCP端口 ARGO_PORT=TCP端口 bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/x00.sh)`&#13;
-&#13;
-## 无交互Hysteria2&#13;
-&#13;
-`PORT=UDP端口 bash &lt;(curl -Ls https://00.2go.us.kg/2.sh)`&#13;
-&#13;
-## 无交互Tuic5&#13;
-&#13;
-`PORT=UDP端口 bash &lt;(curl -Ls https://00.2go.us.kg/tu.sh)`&#13;
-&#13;
-## 无交互vmess+ws+tls(argo)&#13;
-&#13;
-`PORT=TCP端口 bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/containers-shell/00_vmess.sh)`&#13;
-&#13;
-&#13;
-&#13;
-来源：[X-UI](https://github.com/FranzKafkaYu/x-ui)   [所有一键多协议、无交互脚本、工具箱](https://github.com/eooce/Sing-box)   [Socks5](https://github.com/cmliu/socks5-for-serv00)   [Socks5-Hysteria2](https://github.com/gshtwy/socks5-hysteria2-for-Serv00-CT8)   [X-UI-for-FreeBSD](https://github.com/parentalclash/x-ui-freebsd)   [serv00-play](https://github.com/frankiejun/serv00-play)&#13;
-&#13;
-致谢：[FranzKafkaYu](https://github.com/FranzKafkaYu)   [eooce](https://github.com/eooce)   [cmliu](https://github.com/cmliu)   [gshtwy](https://github.com/gshtwy)   [parentalclash](https://github.com/parentalclash)   [frankieju](https://github.com/frankiejun)&#13;
-&#13;
-。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/VPS-da-jian-jie-dian-chang-yong-jiao-ben.html</guid><pubDate>Wed, 18 Dec 2024 14:37:08 +0000</pubDate></item><item><title>test</title><link>https://jackaihmi.github.io/post/test.html</link><description>Hello world。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/test.html</guid><pubDate>Wed, 18 Dec 2024 12:37:34 +0000</pubDate></item></channel></rss>
+Telegram 支持 **Markdown** 语法，尤其是在消息格式化方面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</guid><pubDate>Fri, 20 Dec 2024 14:41:07 +0000</pubDate></item><item><title>VPS常用脚本</title><link>https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</link><description>## 检查IP解锁
+
+`bash &lt;(curl -Ls IP.Check.Place)
+
+## X-UI
+
+`bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)`
+
+## 一键四协议(vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5)
+**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
+
+`bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh)`
+
+## ssh综合工具箱一键脚本
+**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
+
+`curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; ./ssh_tool.sh`
+
+
+
+来源：[X-UI](https://github.com/FranzKafkaYu/x-ui)   [所有一键多协议、无交互脚本、工具箱](https://github.com/eooce/Sing-box)
+
+致谢：[FranzKafkaYu](https://github.com/FranzKafkaYu)   [eooce](https://github.com/eooce)  
+。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</guid><pubDate>Wed, 18 Dec 2024 14:37:08 +0000</pubDate></item><item><title>test</title><link>https://jackaihmi.github.io/post/test.html</link><description>Hello world。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/test.html</guid><pubDate>Wed, 18 Dec 2024 12:37:34 +0000</pubDate></item></channel></rss>
