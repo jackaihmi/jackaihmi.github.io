@@ -38,3 +38,7 @@
 
 #### `bash <(curl -Ls https://github.com/eooce/Sing-box/releases/download/00/reset.sh)`
 
+
+
+
+### 致谢：[cmliu](https://github.com/cmliu) [eooce](https://github.com/eooce)
