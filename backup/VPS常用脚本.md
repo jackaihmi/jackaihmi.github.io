@@ -1,6 +1,6 @@
 ## 检查IP解锁
 
-`bash <(curl -Ls IP.Check.Place)
+`bash <(curl -Ls IP.Check.Place)`
 
 ## X-UI
 
