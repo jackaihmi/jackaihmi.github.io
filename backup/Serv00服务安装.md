@@ -1,5 +1,9 @@
 # 想折腾才用脚本，懒的直接去[原作者](https://github.com/eooce)的面板装 -> [Serv00自动化安装面板](https://serv00.eooce.com)
 
+# Serv00|CT8 vless+xhttp
+
+#### `bash <(curl -Ls https://github.com/eooce/Sing-box/releases/download/00/xhttp.sh)`
+
 # Serv00|CT8一键四协议安装脚本vmess-ws|vmess-ws-tls(argo)|hy2|tuic5
 
 ### 交互式4合1中加入全自动保活服务,只安装1没有保活，安装1和2或者直接安装2
