@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Thu, 24 Apr 2025 11:47:02 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>个人服务（持续更新）</title><link>https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</link><description>#### 以下个人服务均由github项目搭建
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Thu, 24 Apr 2025 11:50:59 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>个人服务（持续更新）</title><link>https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</link><description>#### 以下个人服务均由github项目搭建
 
 ## [Github代理](https://githubjs.jackaihmi.dpdns.org)
 ### 使用方法：把需要下载的Github文件连接加在我的Github代理后，如下👇
 #### `https://githubjs.jackaihmi.dpdns.org/https://example.com`
+
+&gt; [原项目](https://github.com/cmliu/CF-Workers-GitHub)
 
 ## [LibreTV](https://libretv.aihmi.nyc.mn)
 ### 📺 项目简介
