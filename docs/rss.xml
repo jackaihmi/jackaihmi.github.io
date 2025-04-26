@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Thu, 24 Apr 2025 11:50:59 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>个人服务（持续更新）</title><link>https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</link><description>#### 以下个人服务均由github项目搭建
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Sat, 26 Apr 2025 13:34:43 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>个人服务（持续更新）</title><link>https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</link><description>#### 以下个人服务均由github项目搭建
 
 ## [Github代理](https://githubjs.jackaihmi.dpdns.org)
 ### 使用方法：把需要下载的Github文件连接加在我的Github代理后，如下👇
@@ -78,25 +78,40 @@ Telegram官方客户端并没有提供简体中文，可以进行如下操作：
 # 聊天技巧&#13;
 Telegram 支持 **Markdown** 语法，尤其是在消息格式化方面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</guid><pubDate>Fri, 20 Dec 2024 14:41:07 +0000</pubDate></item><item><title>VPS常用脚本</title><link>https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</link><description>## 检查IP解锁
 
-`bash &lt;(curl -Ls IP.Check.Place)`
+```
+bash &lt;(curl -Ls IP.Check.Place)
+```
 
 ## X-UI
 
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)`
+```
+bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+```
 
 ## 一键四协议(vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5)
 **支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
 
-`bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh)`
+```
+bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh)
+```
 
 ## ssh综合工具箱一键脚本
 **支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
 
-`curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; ./ssh_tool.sh`
+```
+curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; ./ssh_tool.sh
+```
 
+## ArgoX（包含Vless、Vmess、Trojan）
+#### 可使用Cloudflare固定隧道，无需root
 
-
-来源：[X-UI](https://github.com/FranzKafkaYu/x-ui)   [所有一键多协议、无交互脚本、工具箱](https://github.com/eooce/Sing-box)
+```
+bash &lt;(curl -Ls https://main.ssss.nyc.mn/argox.sh)
+```
+### 卸载ArgoX👇
+```
+ps aux | grep -E '[w]eb|[n]pm|[b]ot' | awk '{print }' | xargs -r -n 1 kill -9
+```
 
 致谢：[FranzKafkaYu](https://github.com/FranzKafkaYu)   [eooce](https://github.com/eooce)  
 。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</guid><pubDate>Wed, 18 Dec 2024 14:37:08 +0000</pubDate></item><item><title>test</title><link>https://jackaihmi.github.io/post/test.html</link><description>Hello world。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/test.html</guid><pubDate>Wed, 18 Dec 2024 12:37:34 +0000</pubDate></item></channel></rss>
