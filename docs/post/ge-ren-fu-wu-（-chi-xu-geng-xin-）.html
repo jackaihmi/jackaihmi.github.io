@@ -130,27 +130,6 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h3>基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。</h3>
 <blockquote>
 <p><a href="https://github.com/cmliu/CF-Workers-docker.io">原项目</a></p>
-</blockquote>
-<h2><a href="https://webssh.aihmi.nyc.mn/" rel="nofollow">WebSSH</a></h2>
-<h3>✨ 项目简介</h3>
-<h3>WebSSH 是一个基于 Web 的轻量级 SSH 管理工具，方便地在浏览器中进行安全的远程服务器管理。</h3>
-<h4><a href="https://github.com/cmliu/webssh">Github原项目</a></h4>
-<h2><a href="https://libretv.aihmi.nyc.mn" rel="nofollow">LibreTV</a></h2>
-<h3>📺 项目简介</h3>
-<h3>LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。</h3>
-<blockquote>
-<p><a href="https://github.com/LibreSpark/LibreTV">原项目</a></p>
-</blockquote>
-<h2><a href="https://psub.aihmi.nyc.mn" rel="nofollow">订阅转换</a></h2>
-<h4>利用CF Worker搭建的反代订阅转换工具，通过随机化服务器地址和节点账号密码，解决用户转换订阅的隐私问题</h4>
-<blockquote>
-<p><a href="https://github.com/bulianglin/psub">原项目</a></p>
-</blockquote>
-<h2>公益订阅--持续更新</h2>
-<pre class="notranslate"><code class="notranslate">https://sub.d7339473.me/sub?token=aihmi
-</code></pre>
-<blockquote>
-<p><a href="https://github.com/jackaihmi/CF-Workers-SUB">原项目</a></p>
 </blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
@@ -171,7 +150,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
@@ -216,6 +195,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
