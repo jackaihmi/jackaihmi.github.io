@@ -1,2 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:25:04 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://jackaihmi.github.io</link><description>不定期分享实用技巧</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/165161215?v=4</url><title>avatar</title><link>https://jackaihmi.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:48:48 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>个人服务（持续更新）</title><link>https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</link><description>#### 以下个人服务均由github项目搭建
+
+## [GithubProxy](https://githubjs.jackaihmi.dpdns.org)
+### 使用方法：把需要下载的Github文件连接加在我的Github代理后，如下👇
+#### `https://githubjs.jackaihmi.dpdns.org/https://example.com`
+
+&gt; [原项目](https://github.com/cmliu/CF-Workers-GitHub)
+
+## [订阅转换](https://conv.aihmi.nyc.mn)
+### 📖 项目简介
+Sub-Web-Modify 是基于 [CareyWang/sub-web](https://github.com/CareyWang/sub-web) 项目的增强版本，专为订阅转换服务设计的现代化前端界面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/ge-ren-fu-wu-%EF%BC%88-chi-xu-geng-xin-%EF%BC%89.html</guid><pubDate>Tue, 22 Apr 2025 12:18:13 +0000</pubDate></item><item><title>Telegram使用方案</title><link>https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</link><description># 设置中文&#13;
+Telegram官方客户端并没有提供简体中文，可以进行如下操作：&#13;
+1、**直接打开链接**： [简体中文语音包](https://t.me/setlanguage/zhcncc) 即可使用简体中文&#13;
+2、下载第三方**自带简体中文**的Telegram客户端，具体软件自行搜索&#13;
+# **设置**&#13;
+## 下载设置&#13;
+若担心在使用Telegram过程中因自动下载过多照片及视频导致内存占用过大，可以进行以下设置：&#13;
+**1、进入设置打开数据**&#13;
+![photo_2024-12-20_22-19-00](https://github.com/user-attachments/assets/c5bf53d0-cfb9-4e6b-b765-6625fde78f22)&#13;
+&#13;
+**2、将里面所有自动下载的功能关闭**&#13;
+![photo_2024-12-20_22-18-56](https://github.com/user-attachments/assets/ac03337f-b334-4331-935e-c34c1c2dff66)&#13;
+&#13;
+&gt;电脑端设置方法类似&#13;
+## 隐私设置&#13;
+做好隐私保护是使用Telegram的关键一步，建议将隐私设置如下图设置&#13;
+&gt;最后两项需要订阅Telegram会员才能更改&#13;
+![屏幕截图 2024-12-20 222411](https://github.com/user-attachments/assets/a51c6519-89a6-4c1d-bea7-411ce7bfde0f)&#13;
+# 聊天技巧&#13;
+Telegram 支持 **Markdown** 语法，尤其是在消息格式化方面。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/Telegram-shi-yong-fang-an.html</guid><pubDate>Fri, 20 Dec 2024 14:41:07 +0000</pubDate></item><item><title>VPS常用脚本</title><link>https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</link><description>## 检查IP解锁
+
+```
+bash &lt;(curl -Ls IP.Check.Place)
+```
+
+## X-UI
+
+```
+bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+```
+
+## 一键四协议(vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5)
+**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
+
+```
+bash &lt;(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh)
+```
+
+## ssh综合工具箱一键脚本
+**支持的系统：Ubuntu/Debian/CentOS/Alpine/Fedora/Rocky/Almalinux/kail**
+
+```
+curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; ./ssh_tool.sh
+```
+
+## ArgoX（包含Vless、Vmess、Trojan）
+#### 可使用Cloudflare固定隧道，无需root
+
+```
+bash &lt;(curl -Ls https://main.ssss.nyc.mn/argox.sh)
+```
+### 卸载ArgoX👇
+```
+ps aux | grep -E '[w]eb|[n]pm|[b]ot' | awk '{print }' | xargs -r -n 1 kill -9
+```
+
+致谢：[FranzKafkaYu](https://github.com/FranzKafkaYu)   [eooce](https://github.com/eooce)  
+。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/VPS-chang-yong-jiao-ben.html</guid><pubDate>Wed, 18 Dec 2024 14:37:08 +0000</pubDate></item><item><title>test</title><link>https://jackaihmi.github.io/post/test.html</link><description>Hello world。</description><guid isPermaLink="true">https://jackaihmi.github.io/post/test.html</guid><pubDate>Wed, 18 Dec 2024 12:37:34 +0000</pubDate></item></channel></rss>
